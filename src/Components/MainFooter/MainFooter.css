@@ -1,0 +1,10 @@
+.MainFooter{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    .Footers{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}

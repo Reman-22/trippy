@@ -1,0 +1,7 @@
+.FooterSection{
+    margin: 20px;
+    line-height: 1.6;
+    ul{
+    list-style: none;
+    }
+}
