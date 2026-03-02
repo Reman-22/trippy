@@ -1,9 +1,12 @@
-
-    .title{
-        text-align: center;
-        margin: 20px;
+.title{
+    text-align: center;
+    margin: 5% ;
     h1{
-        font-size: 3rem;
+        font-size:clamp(1.5rem , 5vw,3rem) ;
         text-shadow: 10px 10px 15px black;
+    }
+    p{
+        font-size:clamp(16px , 2vw,20px) ;
+        color: rgb(102, 102, 102);
     }
 }

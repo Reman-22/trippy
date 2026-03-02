@@ -23,7 +23,7 @@ const ContactForm = ({title , form1,form2, form3 , form4 ,btn ,desc , btn2}) => 
     {form4? <input placeholder={form4}/>:""}
     <button className='btn' onClick={Change}   >{btn}</button>
     <p>{desc}</p> 
-     {btn2? <button  onClick={ChangeUrl} > {btn2}</button>:""}
+     {btn2? <button  className='btn2' onClick={ChangeUrl} > {btn2}</button>:""}
 
     </div>
   )

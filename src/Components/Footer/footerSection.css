@@ -1,6 +1,7 @@
 .FooterSection{
-    margin: 20px;
+    margin:  0  3%;
     line-height: 1.6;
+    font-size: clamp(10px,2vw,15px);
     ul{
     list-style: none;
     }

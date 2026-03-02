@@ -1,10 +1,12 @@
 .MainFooter{
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 2%;
+    font-size: clamp(10px,2vw,15px);
     .Footers{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: row;
+        gap: 1%;
     }
 }

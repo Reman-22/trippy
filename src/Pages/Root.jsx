@@ -36,7 +36,7 @@ const Root = () => {
     <div>
         <header>
       <NavBar logo="Trippy" items={items} btn="sign up" />
-      <Hero bgImage= "/plane.jpg" title=" your travel your story" description="choose your favourite destination" btn="Travel Now"/>
+      <Hero bgImage= "/trippy/plane.jpg" title=" your travel your story" description="choose your favourite destination" btn="Travel Now"/>
       </header>
       <Outlet/>
     <footer>

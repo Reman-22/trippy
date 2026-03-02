@@ -2,14 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 4.5rem;
+    width: 100%;
+    box-sizing: border-box;
     &.reverse{
         flex-direction: row-reverse;
     }
     .txt{
         width: 49%;
         padding-bottom: 1rem;
-        padding: 3rem;
+        padding: 10% 0;
         line-height: 1.6;
     }
     .images{
@@ -19,7 +20,7 @@
         img{
             border-radius: 6px;
             box-shadow: -1px 1px 62px -18px rgba(0,0,0,.19);
-            height: 350px;
+            max-height: 350px;
             object-fit: cover;
             width: 49%;
             &:nth-child(2){
@@ -29,3 +30,29 @@
         }
     }
 }
+@media (max-width: 768px) {
+  .PopularContainer {
+    flex-direction: column !important; 
+    align-items: center;
+  }
+  .txt {
+    width: 100% !important;
+    padding: 0;
+    text-align: center; 
+    font-size: 12px;
+  }
+
+  .images {
+    width: 100% !important;
+    gap: 2%;
+  }
+
+  .images img {
+    width: 50% !important; 
+    height: auto;
+  }
+  .PopularContainer.reverse {
+    flex-direction: column !important;
+  }
+}
+
